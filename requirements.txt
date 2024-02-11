@@ -38,3 +38,4 @@ apispec-webframeworks>=0.5.0
 pyyaml
 pyotp>=2.6.0
 Flask-Limiter
+dnspython>=2.6.0rc1 # not directly required, pinned by Snyk to avoid a vulnerability
