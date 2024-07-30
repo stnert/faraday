@@ -1,4 +1,4 @@
-werkzeug>=1.0.0
+werkzeug>=3.0.3
 autobahn>=17.10.1
 alembic>=0.9.9
 bcrypt>=3.1.4
@@ -22,7 +22,7 @@ pyasn1
 service_identity>=17.0.0
 SQLAlchemy>=1.2.0,<1.4.0
 tqdm>=4.15.0
-twisted>=18.9.0
+twisted>=24.7.0rc1
 webargs>=7.0.0
 marshmallow-sqlalchemy
 filteralchemy-fork
@@ -38,3 +38,6 @@ apispec-webframeworks>=0.5.0
 pyyaml
 pyotp>=2.6.0
 Flask-Limiter
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
